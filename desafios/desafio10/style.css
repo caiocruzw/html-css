@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid/idroid.otf') format('opentype'); /* Caminho das pastas */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+              background-color: #84e1ad;
+              font-family: Arial, Helvetica, sans-serif;
+              margin: 0;
+              padding: 0;
+}
+
+header {
+              background: linear-gradient(to bottom, #3ddc84, #1a5c37);
+              color: white;
+              text-align: center;
+              padding: 30px 0;
+}
+
+header h1 {
+              font-family: 'idroid', sans-serif;
+              font-size: 3em;
+              color: white;
+              text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+              color: white;
+              font-size: 1.2em;
+              max-width: 600px;
+              text-align: center;
+              padding-top: 20px;
+              margin: auto;
+}
+              
+
+nav {
+              background-color: #1a5c37;
+              padding: 10px;
+}
+
+nav a {
+              color: white;
+              text-decoration: none;
+              margin-right: 20px;
+              font-weight: bold;
+
+}
+
+main {
+              background-color: white;
+              max-width: 800px;
+              margin: 0 auto;
+              padding: 20px;
+              box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+h2, h3 {
+              color: #1a5c37;
+              font-family: 'Courier New', Courier, monospace;
+              margin-left: 20px;
+              margin-right: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+
+.subtopico h3 {
+              background-image: linear-gradient(to right, #84e1ad, transparent);
+              padding: 5px;
+}
+
+.central {
+              display: block;
+              margin: 20px auto;
+              max-width: 350px;
+              width: 100%;
+}
+
+.video-container {
+    background-color: #1a5c37;
+    margin: 20px -20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+
+aside {
+    background-color: #c5ebd6;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+aside h3 {
+    background-color: #1a5c37;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 15px -10px;
+    border-radius: 10px 10px 0 0;
+}
+
+aside ul {
+    list-style-type: '✔️';
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px;
+}
+
+aside ul li span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1a5c37;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 0.8em;
+}
+
+footer strong {
+    color: white;
+    font-weight: bold;
+}
+
+footer strong:hover {
+    text-decoration: underline;
+    color: #3ddc84;
+}
+
+footer p {
+    text-align: center;
+}
